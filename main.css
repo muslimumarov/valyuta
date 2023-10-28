@@ -1,0 +1,50 @@
+
+.bigbox {
+  width: 100vw; height: 100vh; display:  flex; flex-direction: column; align-items: center;justify-content: center; margin: 0;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+}
+.bigbox>div{width: 100%; display: flex; justify-content: center;}
+.box {
+  width: 30%;
+  padding: 3vw;
+  border-radius: 2.5vw;
+  margin: 1vw;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.box p, .box select, .box input, .box span{
+  color: rgb(199, 136, 10)
+  font-size: 1.5vw;
+}
+.box-item:nth-child(2) {margin-top: 1vw;}
+.a {
+  border-radius: 2.5vw;
+  border-radius: 2.5vw;
+  background-color: transparent;
+  color:  rgb(123, 194, 194);
+}
+.span2, .span1 {
+  border-radius: 2.5vw;
+  background-color: transparent;
+  color:  rgb(123, 194, 194);
+}
+.val1, .val2 {
+  appearance: none;
+  border-radius: 2.5vw;
+  background-color: transparent;
+  color: rgb(123, 194, 194);
+  border: 1px solid rgb(123, 194, 194)
+}
+a::placeholder {
+  background-color: transparent;
+  color:  rgb(123, 194, 194);
+}
+p {
+  color:  rgb(123, 194, 194);
+
+}
+.b {
+  border-radius: 2.5vw;
+
+}
